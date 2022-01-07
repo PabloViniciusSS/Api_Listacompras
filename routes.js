@@ -12,7 +12,7 @@ routes.get('/lista_produtos/:id', ProdutoController.listar_id
 )
 routes.put('/update/:id', ProdutoController.update
 )
-routes.delete('/delete/:id', ProdutoController.delete
+routes.delete('/delete/', ProdutoController.delete
 )
 
 
