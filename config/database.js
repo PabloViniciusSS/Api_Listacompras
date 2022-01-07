@@ -1,8 +1,8 @@
 module.exports = {
   dialect: 'mysql',
-  host: 'localhost',
-  username: 'root',
-  password: '123',
+  host: 'us-cdbr-east-05.cleardb.net',
+  username: 'b1ed4bbc8dfaf2',
+  password: 'a70e8c34',
   database: 'compras',
   define: {
     timestamps: true,
