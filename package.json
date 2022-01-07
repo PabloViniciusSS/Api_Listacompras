@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon server.js",
     "start": "yarn server.js"
   },
   "dependencies": {
