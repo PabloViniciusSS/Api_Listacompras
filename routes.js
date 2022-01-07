@@ -8,9 +8,9 @@ routes.post('/cadastro_produtos', ProdutoController.criar
 )
 routes.get('/', ProdutoController.listar
 )
-routes.get('/lista_produtos/:id', ProdutoController.listar_id
+routes.get('/:id', ProdutoController.listar_id
 )
-routes.put('/update/', ProdutoController.update
+routes.put('/update/:id', ProdutoController.update
 )
 routes.delete('/delete/', ProdutoController.delete
 )
