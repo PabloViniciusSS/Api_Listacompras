@@ -48,6 +48,6 @@ module.exports = {
       },
     });
 
-    return res.send("produto" + {id} + "apagado")
+    return res.send("produto apagado")
   }
 }
