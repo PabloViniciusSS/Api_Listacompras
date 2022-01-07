@@ -6,7 +6,9 @@ const routes = express.Router()
 
 routes.post('/cadastro_produtos', ProdutoController.criar
 )
-routes.get('/lista_produtos', ProdutoController.listar
+routes.get('/', function (req, res) {
+  res.render('Ola')
+}
 )
 routes.get('/lista_produtos/:id', ProdutoController.listar_id
 )
