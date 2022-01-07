@@ -37,7 +37,7 @@ module.exports = {
       
     );
 
-    return res.json("produto" + {id} + "modificado")
+    return res.send("produto" + {id} + "modificado")
   },
   async delete(req, res) {
     const{ id } = req.body
@@ -48,6 +48,6 @@ module.exports = {
       },
     });
 
-    return res.json("Apagado")
+    return res.send("Apagado")
   }
 }
