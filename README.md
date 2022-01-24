@@ -8,10 +8,10 @@
       <br>Listar </br>
     <br> https://app-compras.herokuapp.com </br>
     
-     <br>Cadastrar </br>
+      <br>Cadastrar </br>
     <br> https://app-compras.herokuapp.com/cadastro_produtos </br>
    
-          <br>Listar produto especifico (trocando o id pelo numero id do produto) </br>
+       <br>Listar produto especifico (trocando o id pelo numero id do produto) </br>
      <br> https://app-compras.herokuapp.com/cadastro_produtos/:id </br>
      
       <br>Deletar produto (trocando o id pelo numero id do produto) </br>
